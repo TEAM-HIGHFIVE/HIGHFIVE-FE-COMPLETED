@@ -8,7 +8,6 @@ import styled from 'styled-components';
 import { Button, Card, Header } from '@components/common';
 import CommentItem from '@components/CommentItem';
 import { requestGetFetch, requestPostFetch } from '@services/apiService';
-import { postDetailDummy } from '@constants/dummy';
 
 interface Comment {
   commentNo: string;
