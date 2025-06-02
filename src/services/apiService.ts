@@ -65,3 +65,4 @@ export const requestPatchFetch = async (url: string, data: object) => {
     'Content-Type': 'application/json',
   });
 };
+
