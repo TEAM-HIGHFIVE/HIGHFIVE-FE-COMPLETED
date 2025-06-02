@@ -76,6 +76,8 @@ const ServiceDetail = () => {
       .catch(err => {
         console.error('복지 상세 정보 불러오기 실패:', err);
       });
+
+    console.log(detail);
   }, [welfareNo]);
 
   useEffect(() => {
