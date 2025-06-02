@@ -1,4 +1,4 @@
-const SERVER_URL = import.meta.env.VITE_SERVER_URL;
+const SERVER_URL = "http://34.36.66.202/";
 const API_URL = `${SERVER_URL}/`;
 
 const requestFetch = async (
