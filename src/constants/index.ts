@@ -1,2 +1,2 @@
-export { recentPosts, popularServices, postDetailDummy } from './dummy';
+export { recentPosts, popularServices } from './dummy';
 export { regions, targets } from './filters';

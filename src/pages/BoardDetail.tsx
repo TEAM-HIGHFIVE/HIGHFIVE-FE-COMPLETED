@@ -41,18 +41,6 @@ const BoardDetail = () => {
     if (postNo) {
       fetchPostDetail();
     }
-    // const dummy = postDetailDummy;
-    // setTitle(dummy.title);
-    // setContent(dummy.content);
-    // setCreatedAt(new Date(dummy.date).toLocaleDateString());
-    // setComments(
-    //   dummy.comments.map((c, i) => ({
-    //     commentNo: `${i + 1}`,
-    //     content: c.text,
-    //     isMine: false,
-    //     createdAt: c.date.replace(/\./g, '-'),
-    //   })),
-    // );
   }, [postNo]);
 
   const handleAddComment = async () => {
