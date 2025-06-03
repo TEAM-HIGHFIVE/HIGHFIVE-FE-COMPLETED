@@ -22,6 +22,7 @@ const requestFetch = async (
       method,
       headers,
       body: data ? JSON.stringify(data) : undefined,
+      // credentials: 'include',
     });
 
     if (!response.ok) {
