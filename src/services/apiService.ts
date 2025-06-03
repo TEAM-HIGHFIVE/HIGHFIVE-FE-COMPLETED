@@ -1,4 +1,4 @@
-const SERVER_URL = "http://34.36.66.202/";
+const SERVER_URL = "https://api.highfive.p-e.kr/";
 const API_URL = `${SERVER_URL}/`;
 
 const requestFetch = async (
